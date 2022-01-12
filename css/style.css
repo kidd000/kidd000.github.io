@@ -332,6 +332,37 @@ p {
     color: #FF6C71;
 }
 
+.lang a{
+    float: right;
+	
+    font-size: 15px;
+    line-height: 0px;
+    color: #ffffff;
+}
+
+.lang button{
+    top: -50px;
+    left:90%;
+    position: absolute;
+    z-index: 2;
+    background: rgb(0, 0, 0); 
+    color: #FFF;
+    border-color: #FFF;
+}
+
+.lang ul{
+    width: 100px;
+    top: -25px;
+    left:90%;
+    position: absolute;
+    z-index: 2;
+    background:#FFF;
+}
+
+.dropdown-menu {
+    max-width:30px;
+  }
+
 .res-nav_click {
     display: none;
 }
