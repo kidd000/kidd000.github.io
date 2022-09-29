@@ -90,11 +90,11 @@ a:hover, a:active {
 }
 .caption {
 position: absolute;
-  
+
 top: 64%;
   right: 0;
-  padding: 25px; 
-  padding-left: 25px; 
+  padding: 25px;
+  padding-left: 25px;
   left: 0;
 }
 .carousel-fade .carousel-control {
@@ -102,12 +102,12 @@ top: 64%;
   font-size: 90px;
   top: 38%;
 }
-.carousel-indicators li { 
+.carousel-indicators li {
   background-color: rgba(0,0,0,0);
   border: 1px solid #FEE16F;
   border-radius: 0;
 }
-.carousel-indicators .active { 
+.carousel-indicators .active {
   background-color: #FEE16F;
 }
 .caption h2{
@@ -115,7 +115,7 @@ color:#FFE270;
 line-height:45px;
 font-size: 50px;
 }
-.caption strong { 
+.caption strong {
   font-size: 26px;
 }
 
@@ -316,7 +316,7 @@ p {
 #header_wrapper {
     background: #000;
     padding: 15px 0px;
-	
+
 	box-shadow: 1px 1px 4px rgba(60, 60, 60, 0.44);
     position: relative;
 }
@@ -328,7 +328,7 @@ p {
 
 .logo a{
     float: left;
-	
+
     font-size: 28px;
     line-height: 50px;
     color: #FF6C71;
@@ -344,7 +344,7 @@ p {
 
 .lang ul li{
     float: right;
-	
+
     font-size: 15px;
     line-height: 30px;
     color: #ffffff;
@@ -353,7 +353,7 @@ p {
 .res-nav_click {
     display: none;
 }
-	
+
 
 /* Nav Styles
 ---------------------------------*/
@@ -507,9 +507,9 @@ p {
 
 .top_cont_outer {
     background: #ED5441;
-    position: relative; 
+    position: relative;
     background: url('../img/main2.jpg') no-repeat;
-	background-size: cover; 
+	background-size: cover;
 }
 
 .hero_section {
@@ -556,7 +556,7 @@ height: 650px;
 
 .top_left_cont h2 strong {
     font-weight: 400;
-	
+
     color: #FFFFFF;
     font-size: 28px;
     text-transform: capitalize;
@@ -613,7 +613,7 @@ a.read_more:hover {
 div#main-nav {
   width: 100%;
   text-align: center;
-}	
+}
 .navbar-nav {
   width: 100%;
 }
@@ -630,7 +630,7 @@ div#main-nav {
 }
 
 #Presentation h2{
-    color: #fff; 
+    color: #fff;
   }
 
 #Presentation p{
@@ -655,7 +655,7 @@ div#main-nav {
     text-decoration: underline;
     transition: 0.4s;
   }
-  
+
 #Presentation .active, .accordion:hover {
 background-color: white;
 }
@@ -681,14 +681,14 @@ transition: max-height 0.2s ease-out;
 }
 
 
-/* Services
+/* Skill
 ---------------------------------*/
 
-#service {
+#skill {
     padding: 60px 0px;
-    background: url('../img/background1.jpeg') top left no-repeat !important;
+    background: black;
 }
-#service h2{
+#skill h2{
   color: #fff;
 
 }
@@ -702,24 +702,24 @@ transition: max-height 0.2s ease-out;
 .service_block {
     text-align: center;
     padding-left: 15px;
-    padding-right: 15px; 
+    padding-right: 15px;
 	position: relative;
 }
 
-.service_icon {  
+.service_icon {
     width: 90px;
     height: 85px;
-    margin: 0px auto 25px; 
+    margin: 0px auto 25px;
 }
 
- 
+
 
 .service_icon span {
-    background: transparent; 
+    background: transparent;
     display: block;
     height: 95px;
     width: 95px;
-	
+
     border: 1px solid #FFFFFF;
     border-radius: 50%;
     padding: 6px 0 0;
@@ -741,7 +741,7 @@ text-align: center;
     font-weight: 600;
     font-size: 25px;
     color: #fff;
-margin: 35px 0 15px; 
+margin: 35px 0 15px;
 }
 #service h6{
 color:#fff;
@@ -749,9 +749,9 @@ color:#fff;
 .service_block p {
     font-size: 16px;
     color: #A5A5A5;
-    margin: 0 0 35px 0; 
+    margin: 0 0 35px 0;
 }
-	
+
 
 
 /* Latest Work
@@ -962,7 +962,7 @@ img {
 
 /* About Us
 --------------------------- */
- 
+
 .aboutUs-container {
 background-repeat: no-repeat;
 background-position: right;
@@ -970,7 +970,7 @@ background-size: auto 100%;
 background-position-y: 70px;
 }
 #about-us, h2, h3, h6, p {
-color: #0A1525; 
+color: #0A1525;
 }
 #about-us .read-more{
 	border: 1px solid #ED5441;
@@ -987,12 +987,12 @@ color: #0A1525;
 	background-position: right;
 	background-size: auto 100%;
 }
-.about-us{ 
+.about-us{
 }
 .about-us h3{
 	font-size:28px;
 }
-.points{ 
+.points{
 	margin-bottom: 10px;
 	font-size:14px;
 	padding-left:0px;
@@ -1060,7 +1060,7 @@ color: #0A1525;
 .page_section.contact {
     padding: 90px 0 100px;
 }
- 
+
 .contact_section {
     margin: 0 0 60px 0;
 }
@@ -1203,7 +1203,7 @@ color: #0A1525;
 .gplus a:hover {
     color: #dd4b39;
 }
- 
+
 
 .form {
     margin: 0 66px 0 30px;
@@ -1236,10 +1236,10 @@ color: #0A1525;
     height: 230px;
     resize: none;
     overflow: auto;
-    
+
 }
 
-.input-btn {    
+.input-btn {
     width: 175px;
     height: 50px;
     letter-spacing: 0px;
@@ -1362,9 +1362,9 @@ color: #0A1525;
 
 
 
-	
-/* Portfolio */	
-	
+
+/* Portfolio */
+
 .container.portfolio_title {
     padding-bottom: 0px;
 }
@@ -1375,7 +1375,7 @@ color: #0A1525;
 
 
 
-/* Portfolio Filters */	
+/* Portfolio Filters */
 
 #filters {
     margin-top: 10px;
@@ -1400,7 +1400,7 @@ color: #0A1525;
     background: none repeat scroll 0 0 #f7f7f7;
     border-radius: 4px;
     display: inline-block;
-    
+
     font-size: 12px;
     line-height: 20px;
     margin-bottom: 5px;
@@ -1467,7 +1467,7 @@ padding:80px 0 60px;
 	padding: 3px 10px 2px;
 }
 
-/* Portfolio Items */	
+/* Portfolio Items */
 
 #portfolio_wrapper {
     position: relative;
@@ -1549,7 +1549,7 @@ padding:80px 0 60px;
     color: #fff;
     text-transform: uppercase;
     margin-top: 25px;
-    
+
     opacity: 0;
     font-size: 18px;
     transition: all 0.2s ease 0s;
@@ -1617,11 +1617,11 @@ padding:80px 0 60px;
     -o-transition: opacity .3s .2s, margin-top .3s .2s;
     transition: opacity .3s .2s, margin-top .3s .2s;
 }
-	
-	
-	
-	
-/* Portfolio Isotope Transitions */	
+
+
+
+
+/* Portfolio Isotope Transitions */
 
 .isotope, .isotope .isotope-item {
     -webkit-transition-duration: 0.8s;
@@ -1657,7 +1657,7 @@ padding:80px 0 60px;
 
 
 
-/* Portfolio Expander */	
+/* Portfolio Expander */
 
 
 
@@ -1730,10 +1730,10 @@ padding:80px 0 60px;
     padding-bottom: 40px;
 }
 
-	
-/* Portfolio*/	
-	
-	
+
+/* Portfolio*/
+
+
 .project-image-slider .bx-wrapper .bx-next {
     background: url("images/project_slider_right.png") no-repeat;
     background-size: 35px 65px;
@@ -1763,9 +1763,9 @@ padding:80px 0 60px;
     width: 35px;
     z-index: 100;
 }
-	
-/* Portfolio Normal Expander */		
-	
+
+/* Portfolio Normal Expander */
+
 .project-description {
     margin-top: 40px;
     margin-bottom: 20px;
@@ -1793,11 +1793,11 @@ padding:80px 0 60px;
     text-transform: uppercase;
     margin-bottom: 5px;
 }
-	
-	
-	
-/* Portfolio FullScreen Expander */			
-	
+
+
+
+/* Portfolio FullScreen Expander */
+
 #cycle-loader {
     height: 32px;
     left: 50%;
@@ -1940,7 +1940,7 @@ div.mc-image {
 
 /*-------------------
 -----News Styles-----
----------------------*/    
+---------------------*/
 .timeline{
     position:relative;
     margin-bottom:100px;
@@ -1957,7 +1957,7 @@ div.mc-image {
     top:0;
     border-right:1px solid #F74D4D;
     z-index:-1;
-} 
+}
 
 .timeline:after{
     display:block;
@@ -1969,7 +1969,7 @@ div.mc-image {
     bottom:-105px;
     border-right:1px dashed #F74D4D;
     z-index:-1;
-} 
+}
 
 .timeline .date-title{
     text-align:center;
@@ -2222,7 +2222,7 @@ div.mc-image {
 .news-content .news-media.gallery{
     box-shadow:4px 4px 0 #bbb,8px 8px 0 #ddd;
 }
-                               
+
 /*
    Media Queries
 --------------------------- */
@@ -2238,7 +2238,7 @@ background-position-y: 150px;
 @media (max-width: 768px) {
 .navStyle {
 float: right;
-width: auto; 
+width: auto;
 text-align: center;
 }
 .aboutUs-container{
@@ -2247,7 +2247,7 @@ text-align: center;
 p{
 font-size:14px;
 }
-.top_cont_outer { 
+.top_cont_outer {
 height: 335px;
 }
 .hero_section {
@@ -2273,11 +2273,11 @@ margin-bottom:20px;
 font-size:26px;
 line-height:22px;
 }
-.service_block h3 { 
+.service_block h3 {
 font-size: 16px;
 }
 service_block p {
-font-size: 14px; 
+font-size: 14px;
 margin: 0px;
 margin-bottom: 20px;
 }
@@ -2300,7 +2300,7 @@ padding: 11px 0;
 display: inline-block;
 }
 .social_links li {
-float: left; 
+float: left;
 }
 .contact_section{
 margin:0;
@@ -2310,7 +2310,7 @@ font-size: 30px;
 }
 .page_section.contact {
 padding: 60px 0 50px;
-} 
+}
 .navbar-inverse .navbar-toggle .icon-bar{
 background: #FFFFFF;
 }
@@ -2343,15 +2343,15 @@ margin: 0px;
 margin: 0px;
 }
 .navbar-inverse .navbar-nav > li > a {
-color: #D0D0D0; 
+color: #D0D0D0;
 font-size: 14px;
 padding: 10px 11px;
 }
-} 
-@media (max-width: 480px){ 
+}
+@media (max-width: 480px){
 .navStyle {
 float: left;
-width: 100%; 
+width: 100%;
 text-align: left;
 margin-top: 20px;
 }
