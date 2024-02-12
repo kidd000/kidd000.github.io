@@ -2331,7 +2331,7 @@ div.mc-image {
 /*
    Media Queries
 --------------------------- */
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 700px) and (max-width: 1200px) {
 
 .aboutUs-container {
 background-repeat: no-repeat;
