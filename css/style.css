@@ -207,6 +207,7 @@ font-size: 50px;
 .btn-primary {
     padding: 4px 8px;
     margin-bottom: 3px;
+    font-family: 'Menlo';
 }
 
 .grid figure figcaption > a {
