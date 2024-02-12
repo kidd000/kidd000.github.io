@@ -37,17 +37,6 @@ a, a:link{
     clear: both;
 }
 
-a.highlight, a.highlight:link{
-    color: #1874b5b4;
-    clear: both;
-    font-size: 24px;
-    font-family: 'LINESeedJP_Eb', 'Raleway', "メイリオ", "Meiryo";
-    font-weight: bold;
-    margin: 0px 0 10px 10px;
-    text-align: center;
-}
-
-
 a:hover, a:active {
     outline: 0px !important;
 	text-decoration:underline;
