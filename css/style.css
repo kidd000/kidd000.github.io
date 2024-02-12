@@ -3,6 +3,21 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:800,700,400);
 @import url(http://fonts.googleapis.com/css?family=Signika:400,600);
 
+@font-face {
+    font-family: 'LINESeedJP_Rg';
+    src: url('fonts/LINESeedJP_TTF_Rg.ttf');
+}
+
+@font-face {
+font-family: 'LINESeedJP_Bd';
+src: url('fonts/LINESeedJP_TTF_Bd.ttf');
+}
+
+@font-face {
+    font-family: 'LINESeedJP_Eb';
+    src: url('fonts/LINESeedJP_TTF_Eb.ttf');
+}
+
 /* Reset
 ---------------------------------*/
 ul {
@@ -20,6 +35,16 @@ img {
 a, a:link{
     color: #7ab0d6;
     clear: both;
+}
+
+a.highlight, a.highlight:link{
+    color: #1874b5b4;
+    clear: both;
+    font-size: 24px;
+    font-family: 'LINESeedJP_Eb', 'Raleway', "メイリオ", "Meiryo";
+    font-weight: bold;
+    margin: 0px 0 10px 10px;
+    text-align: center;
 }
 
 
@@ -168,7 +193,8 @@ font-size: 50px;
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
 .btn-primary {
-    margin-bottom: 6px;
+    padding: 4px 8px;
+    margin-bottom: 3px;
 }
 
 .grid figure figcaption > a {
@@ -274,36 +300,51 @@ figure.effect-oscar:hover img {
 ---------------------------------*/
 body {
     background: #fff;
-    font-family: 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic',"メイリオ", "Meiryo";
-    font-size: 14px;
+    font-family: 'LINESeedJP_Rg', 'Times New Roman', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic',"メイリオ", "Meiryo";
+    font-size: 15px;
     font-weight: normal;
-    color: #888888;
+    color: #5f5f5f;
     margin: 0;
+}
+
+highlight {
+    font-family: 'LINESeedJP_Bd', 'Times New Roman', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic',"メイリオ", "Meiryo";
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
+
+extra_highlight {
+    font-size: 24px;
+    font-family: 'LINESeedJP_Eb', 'Raleway', "メイリオ", "Meiryo";
+    font-weight: bold;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
 }
 
 h2 {
     font-size: 38px;
     color: #222222;
-    font-family: 'Raleway', "メイリオ", "Meiryo";
-    font-weight: normal;
+    font-family: 'LINESeedJP_Eb', 'Raleway', "メイリオ", "Meiryo";
+    font-weight: bold;
     margin: 0px 0 25px 0;
     text-align: center;
     text-transform: uppercase;
 }
 
 h3 {
-    font-family: 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic',"メイリオ", "Meiryo";
-    font-weight: 600;
+    font-family: 'LINESeedJP_Bd', 'Raleway', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic',"メイリオ", "Meiryo";
+    font-weight: bold;
     color: #222222;
     font-size: 18px;
-    margin: 0 0 5px 0;
+    margin: 0 0 10px 5px;
     text-decoration: underline;
 }
 
 h6 {
     font-size: 16px;
     color: #313131;
-    font-family: 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic',"メイリオ", "Meiryo";
+    font-family: 'Raleway','ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic',"メイリオ", "Meiryo";
     font-weight: 400;
     text-align: center;
     margin: 0 0 60px 0;
@@ -625,11 +666,28 @@ div#main-nav {
   float: initial !important;
 }
 
+
+/* Paper
+---------------------------------*/
+
+#Paper {
+    padding: 90px 0px;
+    background: fff;
+}
+#Paper h2{
+  color: black;
+}
+#Paper ol{
+    font-size: 20px;
+    color: black;
+}
+
+
 /* Presentation
 ---------------------------------*/
 
 #Presentation{
-    padding: 60px 0px;
+    padding: 90px 0px;
     background: black;
 }
 
@@ -658,6 +716,7 @@ div#main-nav {
     font-size: 30px;
     text-decoration: underline;
     transition: 0.4s;
+    margin: 5px;
   }
 
 #Presentation .active, .accordion:hover {
@@ -689,7 +748,7 @@ transition: max-height 0.2s ease-out;
 ---------------------------------*/
 
 #skill {
-    padding: 60px 0px;
+    padding: 90px 0px;
     background: black;
 }
 #skill h2{
@@ -847,8 +906,6 @@ a.contact_btn:hover {
 }
 
 
-
-
 img {
     max-width: 100%;
 }
@@ -879,7 +936,7 @@ img {
 
 
 #clients {
-    padding: 60px 0px;
+    padding: 90px 0px;
 }
 
 .client_area {
@@ -994,11 +1051,11 @@ color: #0A1525;
 .about-us{
 }
 .about-us h3{
-	font-size:28px;
+	font-size:20px;
 }
 .points{
 	margin-bottom: 10px;
-	font-size:14px;
+	font-size:15px;
 	padding-left:0px;
 }
 .about-us p{
@@ -1042,9 +1099,14 @@ color: #0A1525;
     text-decoration: underline;
 }
 
+#LatestNews >div {
+    padding: 0px;
+    width: 100%;
+}
+
 #LatestNews ul li{
-    font-size: 14px;
-    line-height: 1.5;
+    font-size: 12px;
+    line-height: 1.2;
     margin-top: 5px;
 }
 
@@ -1053,14 +1115,33 @@ color: #0A1525;
     display: block;
 }
 
+#LatestNews .accordion-body {
+    padding: 0px;
+    width: 100%;
+}
 
 #aboutUs {
-    padding: 60px 0;
+    padding: 90px 0;
     background: #fff;
 }
 
-/* Contact
+/* ContactLink
 ---------------------------------*/
+#ContactLink{
+    padding: 90px 0px;
+    background: black;
+    color: whitesmoke
+}
+
+#ContactLink h2{
+    color: #fff;
+  }
+
+#ContactLink p{
+    color: white;
+}
+
+
 .page_section.contact {
     padding: 90px 0 100px;
 }
@@ -1945,6 +2026,11 @@ div.mc-image {
 /*-------------------
 -----News Styles-----
 ---------------------*/
+#Achievement{
+    padding: 90px 0px;
+}
+
+
 .timeline{
     position:relative;
     margin-bottom:100px;
@@ -2274,7 +2360,7 @@ padding: 20px 0 20px;
 margin-bottom:20px;
 }
 #aboutUs h3{
-font-size:26px;
+font-size:18px;
 line-height:22px;
 }
 .service_block h3 {
