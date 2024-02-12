@@ -686,6 +686,7 @@ div#main-nav {
 #Paper {
     padding: 90px 0px;
     background: fff;
+    max-width: 100%;
 }
 #Paper h2{
   color: black;
