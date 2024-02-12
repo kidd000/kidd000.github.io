@@ -5,17 +5,17 @@
 
 @font-face {
     font-family: 'LINESeedJP_Rg';
-    src: url('fonts/LINESeedJP_TTF_Rg.ttf');
+    src: url('../fonts/LINESeedJP_TTF_Rg.ttf');
 }
 
 @font-face {
 font-family: 'LINESeedJP_Bd';
-src: url('fonts/LINESeedJP_TTF_Bd.ttf');
+src: url('../fonts/LINESeedJP_TTF_Bd.ttf');
 }
 
 @font-face {
     font-family: 'LINESeedJP_Eb';
-    src: url('fonts/LINESeedJP_TTF_Eb.ttf');
+    src: url('../fonts/LINESeedJP_TTF_Eb.ttf');
 }
 
 /* Reset
