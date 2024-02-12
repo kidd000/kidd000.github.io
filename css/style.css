@@ -335,7 +335,7 @@ extra_highlight {
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 40px;
     color: #222222;
     font-family: 'LINESeedJP_Eb', 'Raleway', "メイリオ", "Meiryo";
     font-weight: bold;
@@ -602,7 +602,7 @@ height: 650px;
 }
 
 .top_left_cont h2 {
-    font-size: 36px;
+    font-size: 40px;
     color: #FFF;
     line-height: 58px;
     margin: 0 0 26px 0;
@@ -1519,7 +1519,7 @@ color: #0A1525;
 .section-title h2 {
     color: #222222;
     font-family: 'LINESeedJP_Eb', 'Raleway', "メイリオ", "Meiryo";
-    font-size: 36px;
+    font-size: 40px;
     letter-spacing: -1px;
     margin: 0 0 15px;
     text-align: center;
