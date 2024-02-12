@@ -5,19 +5,42 @@
 
 @font-face {
     font-family: 'LINESeedJP_Rg';
-    src: url('../fonts/LINESeedJP_TTF_Rg.ttf');
+    src: local("※"), url('../../fonts/LINESeedJP_TTF_Rg.ttf') format("truetype");
 }
 
 @font-face {
 font-family: 'LINESeedJP_Bd';
-src: url('../fonts/LINESeedJP_TTF_Bd.ttf');
+src: local("※"), url('../../fonts/LINESeedJP_TTF_Bd.ttf');
 }
 
 @font-face {
     font-family: 'LINESeedJP_Eb';
-    src: url('../fonts/LINESeedJP_TTF_Eb.ttf');
+    src: local("※"), url('../../fonts/LINESeedJP_TTF_Eb.ttf');
 }
-
+/* /* @font-face {
+    font-family: LINESeedJPStd;
+    font-style: normal;
+    font-weight: 200;
+    src: local("※"), url(../../assets/fonts/LINESeedJP_OTF_Th.woff) format("woff"), url(../../assets/fonts/LINESeedJP_OTF_Th.woff2) format("woff2");
+} */
+/* @font-face {
+font-family: LINESeedJPStd;
+font-style: normal;
+font-weight: 400;
+src: local("※"), url(../../assets/fonts/LINESeedJP_OTF_Rg.woff) format("woff"), url(../../assets/fonts/LINESeedJP_OTF_Rg.woff2) format("woff2");
+}
+@font-face {
+font-family: LINESeedJPStd;
+font-style: normal;
+font-weight: 700;
+src: local("※"), url(../../assets/fonts/LINESeedJP_OTF_Bd.woff) format("woff"), url(../../assets/fonts/LINESeedJP_OTF_Bd.woff2) format("woff2");
+}
+@font-face {
+font-family: LINESeedJPStd;
+font-style: normal;
+font-weight: 900;
+src: local("※"), url(../../assets/fonts/LINESeedJP_OTF_Eb.woff) format("woff"), url(../../assets/fonts/LINESeedJP_OTF_Eb.woff2) format("woff2");
+} */ */
 /* Reset
 ---------------------------------*/
 ul {
