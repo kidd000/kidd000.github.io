@@ -333,6 +333,7 @@ extra_highlight {
     font-family: 'LINESeedJP_Eb', 'Raleway', "メイリオ", "Meiryo";
     font-weight: bold;
     margin: 10px 10px 10px 10px;
+    padding-bottom: 0px 10px;
     text-align: center;
 }
 
