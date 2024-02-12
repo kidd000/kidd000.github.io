@@ -335,7 +335,7 @@ extra_highlight {
 }
 
 h2 {
-    font-size: 38px;
+    font-size: 36px;
     color: #222222;
     font-family: 'LINESeedJP_Eb', 'Raleway', "メイリオ", "Meiryo";
     font-weight: bold;
@@ -1163,7 +1163,7 @@ color: #0A1525;
 }
 
 .contact_section h2 {
-    font-size: 40px;
+    /* font-size: 40px; */
     color: #ffffff;
     margin: 0 0 50px 0;
     text-transform: uppercase;
@@ -1518,8 +1518,8 @@ color: #0A1525;
 
 .section-title h2 {
     color: #222222;
-    font-family: 'Raleway', "メイリオ", "Meiryo";
-    font-size: 34px;
+    font-family: 'LINESeedJP_Eb', 'Raleway', "メイリオ", "Meiryo";
+    font-size: 36px;
     letter-spacing: -1px;
     margin: 0 0 15px;
     text-align: center;
