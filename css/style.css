@@ -2081,7 +2081,7 @@ div.mc-image {
 
 .timeline .date-title{
     text-align: center;
-    margin: 10px auto;
+    margin: 25px auto;
 }
 
 .timeline .date-title span{
@@ -2091,6 +2091,7 @@ div.mc-image {
     color: #ffffffbb;
     background: #facc12;
     border-radius:5px;
+    font-family: 'Meiryo', sans-serif;
 }
 
 .timeline .btn-primary {
