@@ -207,7 +207,8 @@ font-size: 50px;
 .btn-primary {
     padding: 4px 8px;
     margin-bottom: 3px;
-    font-family: 'Menlo';
+    font-family: 'Meiryo', sans-serif;
+    color: #ffffffbb;
 }
 
 .grid figure figcaption > a {
@@ -731,7 +732,7 @@ div#main-nav {
     text-align: left;
     outline: none;
     font-size: 30px;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     transition: 0.4s;
     margin: 5px;
   }
@@ -740,17 +741,17 @@ div#main-nav {
 background-color: white;
 }
 
-#Presentation .accordion:after {
+/* #Presentation .accordion:after {
 content: '\002B';
 color: white;
 font-weight: bold;
 float: right;
 margin-left: 5px;
-}
+} */
 
-#Presentation .active:after {
+/* #Presentation .active:after {
 content: "\2212";
-}
+} */
 
 #Presentation .panel {
 padding: 0 18px;
@@ -868,7 +869,7 @@ color:#fff;
 }
 
 .service-list-col1 i {
-    display:;
+    display: block;
     color: #888;
     font-size: 19px;
     font-style: normal;
@@ -2079,18 +2080,39 @@ div.mc-image {
 }
 
 .timeline .date-title{
-    text-align:center;
-    margin:50px 0 50px;
+    text-align: center;
+    margin: 10px auto;
 }
 
 .timeline .date-title span{
-    padding:15px 30px;
-    font-size:21px;
-    font-weight:400;
-    color: #000;
-    background: #FEE16F;
+    padding: 5px 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffffbb;
+    background: #facc12;
     border-radius:5px;
 }
+
+.timeline .btn-primary {
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px 10px;
+    font-size: 24px;
+    font-weight: bold;
+    /* color: #ffffffbb; */
+    background: #facc12;
+    border-radius: 5px;
+    border-color: transparent;
+    display: block;
+}
+
+/* .timeline .btn-primary.collapsed {
+    color: #ffffffbb;
+} */
+
+/* .timeline .btn-primary:not(.collapsed) {
+    color: #fff;
+} */
 
 .news-item {
     padding-bottom:0px;
