@@ -1039,6 +1039,25 @@ img {
     margin-bottom: 40px;
 }
 
+/* Social Icons
+--------------------------- */
+.social-icons-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin: 0 5px;
+    transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
 /* About Us
 --------------------------- */
 
