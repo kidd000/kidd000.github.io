@@ -47,6 +47,18 @@ ul {
     list-style: square;
 }
 
+/* Stretch Support for Dynamic Sizing
+---------------------------------*/
+.container {
+    max-width: 1170px;
+    width: stretch;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: fill-available;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .figure {
     margin: 0px;
 }
@@ -436,6 +448,7 @@ p {
 
 .navStyle {
     float: right;
+    width: auto;
 }
 
 .navStyle ul {
@@ -581,6 +594,10 @@ p {
 .hero_wrapper {
 background: rgba(10, 21, 37, 0.69);
 height: 650px;
+width: stretch;
+width: -webkit-fill-available;
+width: -moz-available;
+width: fill-available;
 }
 .white_pad {
     position: relative;
@@ -677,7 +694,10 @@ div#main-nav {
   text-align: center;
 }
 .navbar-nav {
-  width: 100%;
+  width: stretch;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: fill-available;
 }
 .navbar-nav>li {
   float: initial !important;
@@ -785,6 +805,7 @@ transition: max-height 0.2s ease-out;
     padding-left: 15px;
     padding-right: 15px;
 	position: relative;
+    width: auto;
 }
 
 .service_icon {
@@ -958,7 +979,11 @@ img {
 }
 
 .client_area {
-    width: 960px;
+    max-width: 960px;
+    width: stretch;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: fill-available;
     margin: 0px auto;
 }
 
@@ -1178,6 +1203,39 @@ color: #0A1525;
     color: white;
 }
 
+#ContactLink .detail {
+    margin-bottom: 30px;
+}
+
+#ContactLink .detail h4 {
+    font-size: 20px;
+    color: #FEE16F;
+    margin: 0 0 15px 0;
+    padding-left: 20px;
+    font-weight: bold;
+    font-family: 'LINESeedJP_Bd', 'Raleway', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic',"メイリオ", "Meiryo";
+}
+
+#ContactLink .detail ul {
+    padding-left: 40px;
+    margin: 0;
+}
+
+#ContactLink .detail ul li {
+    color: #ffffff;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+#ContactLink .detail ul li a {
+    color: #7ab0d6;
+}
+
+#ContactLink .detail ul li a:hover {
+    color: #FEE16F;
+    text-decoration: underline;
+}
+
 
 .page_section.contact {
     padding: 90px 0 100px;
@@ -1265,6 +1323,7 @@ color: #0A1525;
     font-size: 15px;
     margin: 0 0 0 20px;
     padding-left: 0;
+    width: auto;
 }
 
 .contact_info  h3 {
@@ -1334,7 +1393,10 @@ color: #0A1525;
 .input-text {
     padding: 15px 16px;
     border: 1px solid #ccc;
-    width: 100%;
+    width: stretch;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: fill-available;
     height: 50px;
     display: block;
     border-radius: 4px;
@@ -1594,7 +1656,10 @@ padding:80px 0 60px;
 #portfolio_wrapper {
     position: relative;
     padding: 0;
-    width: 100%;
+    width: stretch;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: fill-available;
     margin: 0 auto;
     display: block;
 }
@@ -1611,6 +1676,7 @@ padding:80px 0 60px;
     padding: 0;
     position: relative;
     overflow: hidden;
+    width: auto;
 }
 
 .portfolio-item .portfolio_img {
@@ -1634,8 +1700,14 @@ padding:80px 0 60px;
 }
 
 .item_overlay {
-    width: 100%;
-    height: 100%;
+    width: stretch;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: fill-available;
+    height: stretch;
+    height: -webkit-fill-available;
+    height: -moz-available;
+    height: fill-available;
     position: absolute;
     top: 0;
     left: 0;
@@ -1648,8 +1720,14 @@ padding:80px 0 60px;
 }
 
 .open-project-link {
-    width: 100%;
-    height: 100%;
+    width: stretch;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: fill-available;
+    height: stretch;
+    height: -webkit-fill-available;
+    height: -moz-available;
+    height: fill-available;
     position: absolute;
     z-index: 100;
 }
@@ -1846,7 +1924,10 @@ padding:80px 0 60px;
 
 .project-page {
     background-color: #FFF;
-    width: 100%;
+    width: stretch;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: fill-available;
     height: auto;
     left: 0;
     padding-bottom: 40px;
@@ -2124,6 +2205,11 @@ div.mc-image {
     border-radius: 5px;
     border-color: transparent;
     display: block;
+    width: stretch;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: fill-available;
+    max-width: 500px;
 }
 
 /* .timeline .btn-primary.collapsed {
@@ -2153,6 +2239,7 @@ div.mc-image {
     box-shadow:-5px 5px 0 rgba(0,0,0,0.08);
     -webkit-transition:all .3s ease-out;
     transition:all .3s ease-out;
+    width: auto;
 }
 
 .news-item:hover .news-content {
@@ -2387,7 +2474,10 @@ background-position-y: 150px;
 @media (max-width: 768px) {
 .navStyle {
 float: right;
-width: auto;
+width: stretch;
+width: -webkit-fill-available;
+width: -moz-available;
+width: fill-available;
 text-align: center;
 }
 .aboutUs-container{
@@ -2500,7 +2590,10 @@ padding: 10px 11px;
 @media (max-width: 480px){
 .navStyle {
 float: left;
-width: 100%;
+width: stretch;
+width: -webkit-fill-available;
+width: -moz-available;
+width: fill-available;
 text-align: left;
 margin-top: 20px;
 }
@@ -2512,10 +2605,17 @@ border: 0px solid #fff;
 min-height: 40px;
 margin-bottom: 0px;
 float: initial;
-width: 100%;
+width: stretch;
+width: -webkit-fill-available;
+width: -moz-available;
+width: fill-available;
 }
 .team_area {
-width: 99%;
+width: stretch;
+width: -webkit-fill-available;
+width: -moz-available;
+width: fill-available;
+max-width: 99%;
 }
 .read_more2{
 display:none;
