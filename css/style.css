@@ -17,6 +17,13 @@
     font-family: 'LINESeedJP_Eb';
     src: local("※"), url('../fonts/LINESeedJP_TTF_Eb.ttf') format("truetype");
 }
+
+/* Bold text styling with ExtraBold font */
+b, strong {
+    font-family: 'LINESeedJP_Eb', 'Raleway', "メイリオ", "Meiryo";
+    font-weight: normal;
+}
+
 /* /* @font-face {
     font-family: LINESeedJPStd;
     font-style: normal;
